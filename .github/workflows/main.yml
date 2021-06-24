@@ -36,9 +36,6 @@ jobs:
         
     - name: Create a NGROK .yml file.
       run: start NGROK_AP.bat
-      
-    - name: new user
-      run: Set-LocalUser -Password (ConvertTo-SecureString -AsPlainText "lwi169ka71A!" -Force)
 
     - name: Turn on RDP connection.
       run: | 
